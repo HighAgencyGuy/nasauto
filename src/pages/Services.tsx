@@ -25,10 +25,10 @@ const services = [
   },
   {
     icon: RefreshCw,
-    title: "Swap Your Car",
-    description: "Upgrade your current vehicle by swapping it for a new one. Get a fair market value assessment and apply it towards your next purchase.",
+    title: "Sell or Swap Your Car",
+    description: "Sell your car for cash or upgrade by swapping it for a new one. Get a fair market value assessment and apply it towards your next purchase.",
     features: ["Free vehicle appraisal", "Fair market pricing", "Quick turnaround", "Hassle-free process"],
-    link: "/swap-your-car"
+    link: "/sell-swap-cars"
   },
   {
     icon: CreditCard,
