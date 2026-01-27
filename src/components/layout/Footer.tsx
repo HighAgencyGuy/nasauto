@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin, Clock, Facebook, Instagram, Twitter, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/logo.png";
 
 const quickLinks = [
   { name: "Browse Inventory", href: "/inventory" },
+  { name: "Compare Cars", href: "/compare" },
   { name: "Financing Options", href: "/financing" },
-  { name: "Swap Your Car", href: "/swap-your-car" },
-  { name: "Sell Your Car", href: "/sell-your-car" },
+  { name: "Sell/Swap Cars", href: "/sell-swap-cars" },
   { name: "About Us", href: "/about" },
   { name: "Contact", href: "/contact" },
 ];
@@ -64,8 +65,8 @@ export function Footer() {
             {/* Brand */}
             <div className="lg:col-span-1">
               <div className="flex items-center gap-3 mb-6">
-                <div className="w-12 h-12 rounded-xl bg-gradient-gold flex items-center justify-center">
-                  <span className="font-display font-bold text-xl text-charcoal">N</span>
+                <div className="w-14 h-14 rounded-full bg-white flex items-center justify-center border-2 border-white/20 shadow-md">
+                  <img src={logo} alt="Nas Autos Logo" className="w-11 h-11 object-contain" />
                 </div>
                 <div>
                   <span className="font-display font-bold text-2xl block">Nas Autos</span>

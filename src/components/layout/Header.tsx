@@ -3,14 +3,15 @@ import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Phone, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import logo from "@/assets/logo.png";
 
 const navLinks = [
   { name: "Home", href: "/" },
   { name: "Inventory", href: "/inventory" },
+  { name: "Compare", href: "/compare" },
   { name: "Services", href: "/services" },
   { name: "Financing", href: "/financing" },
-  { name: "Swap Your Car", href: "/swap-your-car" },
-  { name: "Sell Your Car", href: "/sell-your-car" },
+  { name: "Sell/Swap Cars", href: "/sell-swap-cars" },
   { name: "About", href: "/about" },
   { name: "Contact", href: "/contact" },
 ];
@@ -50,8 +51,8 @@ export function Header() {
         <nav className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-lg bg-gradient-gold flex items-center justify-center">
-              <span className="font-display font-bold text-lg text-charcoal">N</span>
+            <div className="w-12 h-12 rounded-full bg-white flex items-center justify-center border-2 border-white/20 shadow-md">
+              <img src={logo} alt="Nas Autos Logo" className="w-10 h-10 object-contain" />
             </div>
             <div className="flex flex-col">
               <span className={cn(
