@@ -22,8 +22,8 @@ export function HeroSection() {
             </div>
             
             <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6 animate-fade-in-up [text-shadow:_0_2px_10px_rgb(0_0_0_/_40%)]">
-              Your Trusted
-              <span className="block text-gradient-gold">Auto Partner</span>
+              <span className="text-gradient-gold">Nas Autos</span> – Your Trusted
+              <span className="block">Auto Partner</span>
               in Karu, Abuja
             </h1>
             

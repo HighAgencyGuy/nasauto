@@ -50,23 +50,9 @@ export function Header() {
       <div className="section-container">
         <nav className="flex items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2">
-            <div className="w-12 h-12 rounded-full bg-white flex items-center justify-center border-2 border-white/20 shadow-md">
-              <img src={logo} alt="Nas Autos Logo" className="w-10 h-10 object-contain" />
-            </div>
-            <div className="flex flex-col">
-              <span className={cn(
-                "font-display font-bold text-xl leading-tight transition-colors",
-                isScrolled ? "text-foreground" : "text-white"
-              )}>
-                Nas Autos
-              </span>
-              <span className={cn(
-                "text-xs tracking-wider transition-colors",
-                isScrolled ? "text-muted-foreground" : "text-white/70"
-              )}>
-                KARU, ABUJA
-              </span>
+          <Link to="/" className="flex items-center">
+            <div className="w-[72px] h-[72px] rounded-full bg-white flex items-center justify-center border-2 border-white/20 shadow-md">
+              <img src={logo} alt="Nas Autos Logo" className="w-[60px] h-[60px] object-contain" />
             </div>
           </Link>
 
