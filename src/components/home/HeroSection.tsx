@@ -42,7 +42,7 @@ export function HeroSection() {
                 </Link>
               </Button>
               <Button variant="hero-outline" size="xl" asChild>
-                <Link to="/sell-your-car">
+                <Link to="/sell-swap-cars">
                   Sell Your Car
                 </Link>
               </Button>
